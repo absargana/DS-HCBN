@@ -149,7 +149,7 @@ The split is patient-wise, fixed before training, and protected by SHA-256. Chec
 
 ## Citation
 
-Please cite the associated DS-HCBN manuscript. Publication metadata and DOI should be added here after acceptance.
+Please cite the associated DS-HCBN manuscript. 
 
 ## License
 
