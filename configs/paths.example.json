@@ -1,0 +1,7 @@
+{
+  "lidc_dicom_root": "C:/path/to/LIDC-IDRI",
+  "lidc_xml_root": "C:/path/to/tcia-lidc-xml",
+  "preprocessed_root": "C:/path/to/preprocessed",
+  "experiment_root": "C:/path/to/outputs",
+  "lndb_ct_root": "C:/path/to/LNDb/CT"
+}

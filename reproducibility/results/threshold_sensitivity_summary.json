@@ -1,0 +1,83 @@
+{
+  "method": "constrained complete linkage; one annotation per reader",
+  "reference_threshold_mm": 10.0,
+  "thresholds_mm": [
+    5.0,
+    7.5,
+    10.0,
+    12.5,
+    15.0
+  ],
+  "summary": [
+    {
+      "threshold_mm": 5.0,
+      "patients_processed": 1010,
+      "patients_with_eligible_clusters": 875,
+      "eligible_clusters": 2689,
+      "benign_clusters": 794,
+      "uncertain_clusters": 1558,
+      "malignant_clusters": 337,
+      "multi_reader_clusters": 2357,
+      "comparable_confident_annotation_assignments": 3251,
+      "changed_confident_label_assignments_vs_10mm": 0,
+      "changed_fraction": 0.0,
+      "reference_cocluster_pair_retention": 0.9908424908424909
+    },
+    {
+      "threshold_mm": 7.5,
+      "patients_processed": 1010,
+      "patients_with_eligible_clusters": 875,
+      "eligible_clusters": 2663,
+      "benign_clusters": 791,
+      "uncertain_clusters": 1556,
+      "malignant_clusters": 316,
+      "multi_reader_clusters": 2362,
+      "comparable_confident_annotation_assignments": 3258,
+      "changed_confident_label_assignments_vs_10mm": 0,
+      "changed_fraction": 0.0,
+      "reference_cocluster_pair_retention": 0.9960622710622711
+    },
+    {
+      "threshold_mm": 10.0,
+      "patients_processed": 1010,
+      "patients_with_eligible_clusters": 875,
+      "eligible_clusters": 2664,
+      "benign_clusters": 793,
+      "uncertain_clusters": 1558,
+      "malignant_clusters": 313,
+      "multi_reader_clusters": 2367,
+      "comparable_confident_annotation_assignments": 3277,
+      "changed_confident_label_assignments_vs_10mm": 0,
+      "changed_fraction": 0.0,
+      "reference_cocluster_pair_retention": 1.0
+    },
+    {
+      "threshold_mm": 12.5,
+      "patients_processed": 1010,
+      "patients_with_eligible_clusters": 875,
+      "eligible_clusters": 2665,
+      "benign_clusters": 795,
+      "uncertain_clusters": 1560,
+      "malignant_clusters": 310,
+      "multi_reader_clusters": 2375,
+      "comparable_confident_annotation_assignments": 3267,
+      "changed_confident_label_assignments_vs_10mm": 0,
+      "changed_fraction": 0.0,
+      "reference_cocluster_pair_retention": 0.9968864468864469
+    },
+    {
+      "threshold_mm": 15.0,
+      "patients_processed": 1010,
+      "patients_with_eligible_clusters": 875,
+      "eligible_clusters": 2667,
+      "benign_clusters": 797,
+      "uncertain_clusters": 1558,
+      "malignant_clusters": 312,
+      "multi_reader_clusters": 2379,
+      "comparable_confident_annotation_assignments": 3261,
+      "changed_confident_label_assignments_vs_10mm": 0,
+      "changed_fraction": 0.0,
+      "reference_cocluster_pair_retention": 0.9943223443223443
+    }
+  ]
+}

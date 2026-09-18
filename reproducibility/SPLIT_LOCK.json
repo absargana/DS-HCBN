@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "method": "two-stage patient-level stratified random split",
+  "strata_definition": {
+    "B1": "benign-only patient with <=1 benign nodule",
+    "B2p": "benign-only patient with >=2 benign nodules",
+    "M1_M": "exactly 1 malignant nodule; no single-rating malignant nodule",
+    "M1_S": "exactly 1 malignant nodule; has a single-rating malignant nodule",
+    "M2p_M": ">=2 malignant nodules; no single-rating malignant nodule",
+    "M2p_S": ">=2 malignant nodules; has a single-rating malignant nodule"
+  },
+  "sizes": {
+    "train": 412,
+    "val": 88,
+    "test": 89
+  },
+  "dataset": {
+    "binary_nodules": 1106,
+    "binary_patients": 589
+  },
+  "manifest_sha256": "e68aaa8749afab703d3ae5f4eee0f910ed2e7123524f31c02540feebd3ee63df",
+  "uses_model_outputs": false,
+  "uses_previous_error_status": false,
+  "uses_test_predictions": false
+}

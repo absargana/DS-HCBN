@@ -1,0 +1,32 @@
+{
+  "analysis": "Frozen primary-model behavior on uncertain LIDC nodules",
+  "checkpoint_sha256": "aaa20c54660fa7a8d028a4d6e283b6a6ec81690b87064072580ef6560e07dbe2",
+  "no_retraining": true,
+  "no_binary_accuracy_claimed": true,
+  "device": "cuda",
+  "all_uncertain": {
+    "n_nodules": 1558,
+    "n_patients": 686,
+    "probability_median": 0.06549072265625,
+    "probability_q1": 0.0273895263671875,
+    "probability_q3": 0.654052734375,
+    "spearman_rho": 0.3371354877854828,
+    "spearman_p": 1.0206032574797697e-42
+  },
+  "spearman_patient_bootstrap_95ci": [
+    0.2852528946638222,
+    0.3874402489208178
+  ],
+  "multi_reader_only": {
+    "n_nodules": 1451,
+    "n_patients": 660,
+    "probability_median": 0.06573486328125,
+    "probability_q1": 0.02753448486328125,
+    "probability_q3": 0.678955078125,
+    "spearman_rho": 0.3483631218839581,
+    "spearman_p": 1.1730838314866463e-42
+  },
+  "proportion_above_frozen_primary": 0.3395378690629012,
+  "proportion_above_0_5": 0.27599486521181,
+  "frozen_primary_threshold": 0.23
+}

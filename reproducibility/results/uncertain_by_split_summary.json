@@ -1,0 +1,65 @@
+{
+  "interpretation_guardrail": "Full cohort is descriptive; test-patient subset is the held-out generalization analysis.",
+  "by_split": {
+    "train": {
+      "n_nodules": 724,
+      "n_patients": 278,
+      "spearman_rho": 0.34379523650121613,
+      "spearman_p": 1.6267442218518398e-21,
+      "patient_bootstrap_95ci": [
+        0.26286961632730926,
+        0.41890565341807967
+      ],
+      "probability_median": 0.06396484375,
+      "probability_q1": 0.02779388427734375,
+      "probability_q3": 0.567138671875,
+      "proportion_above_0_23": 0.3259668508287293,
+      "proportion_above_0_5": 0.26243093922651933
+    },
+    "val": {
+      "n_nodules": 168,
+      "n_patients": 58,
+      "spearman_rho": 0.3597254658865821,
+      "spearman_p": 1.6756082413578124e-06,
+      "patient_bootstrap_95ci": [
+        0.22549684522750374,
+        0.5040473023097346
+      ],
+      "probability_median": 0.09600830078125,
+      "probability_q1": 0.031787872314453125,
+      "probability_q3": 0.692138671875,
+      "proportion_above_0_23": 0.375,
+      "proportion_above_0_5": 0.2976190476190476
+    },
+    "test": {
+      "n_nodules": 165,
+      "n_patients": 64,
+      "spearman_rho": 0.2716849504887305,
+      "spearman_p": 0.0004156240536829359,
+      "patient_bootstrap_95ci": [
+        0.11926263296578875,
+        0.4242472405413123
+      ],
+      "probability_median": 0.063720703125,
+      "probability_q1": 0.031494140625,
+      "probability_q3": 0.6826171875,
+      "proportion_above_0_23": 0.32727272727272727,
+      "proportion_above_0_5": 0.26666666666666666
+    },
+    "unassigned_no_confident_nodule": {
+      "n_nodules": 501,
+      "n_patients": 286,
+      "spearman_rho": 0.3476867375106063,
+      "spearman_p": 1.1083099601391585e-15,
+      "patient_bootstrap_95ci": [
+        0.26458579166997315,
+        0.4301451809670608
+      ],
+      "probability_median": 0.061431884765625,
+      "probability_q1": 0.0254669189453125,
+      "probability_q3": 0.77392578125,
+      "proportion_above_0_23": 0.35129740518962077,
+      "proportion_above_0_5": 0.29141716566866266
+    }
+  }
+}

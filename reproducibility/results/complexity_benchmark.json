@@ -1,0 +1,51 @@
+{
+  "input_shapes": [
+    [
+      1,
+      1,
+      64,
+      64,
+      64
+    ],
+    [
+      1,
+      1,
+      96,
+      96,
+      96
+    ]
+  ],
+  "batch_size": 1,
+  "weights": "frozen trained checkpoints",
+  "device": "cuda",
+  "gpu": "NVIDIA RTX 3500 Ada Generation Laptop GPU",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "python": "3.12.7",
+  "amp": true,
+  "models": [
+    {
+      "architecture": "Residual CNN",
+      "trainable_parameters": 3767479,
+      "latency_ms_median": 44.16010000568349,
+      "latency_ms_q1": 42.240775015670806,
+      "latency_ms_q3": 46.143599989591166,
+      "repetitions": 50,
+      "peak_gpu_memory_mb": 168.8359375,
+      "profiler_counted_flops": 1594586972,
+      "profiler_counted_gflops": 1.594586972
+    },
+    {
+      "architecture": "U-Net encoder",
+      "trainable_parameters": 4750231,
+      "latency_ms_median": 36.061499995412305,
+      "latency_ms_q1": 34.237399995618034,
+      "latency_ms_q3": 38.375174983229954,
+      "repetitions": 50,
+      "peak_gpu_memory_mb": 147.02783203125,
+      "profiler_counted_flops": 1588577628,
+      "profiler_counted_gflops": 1.588577628
+    }
+  ],
+  "flops_note": "PyTorch-profiler FLOPs for supported operators; reported as a reproducible lower bound because some 3D/attention operators may not expose FLOP metadata. Latency and peak memory are measured directly."
+}

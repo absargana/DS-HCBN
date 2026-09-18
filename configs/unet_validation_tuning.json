@@ -1,0 +1,11 @@
+{
+  "purpose": "validation-only encoder comparison",
+  "encoder": "unet",
+  "fixed_seed": 42,
+  "fixed_split": "reproducibility/LOCKED_SPLIT_MANIFEST.csv",
+  "candidates": [
+    {"name": "gn192_lr5e5_drop10", "encoder_norm": "group", "encoder_final_channels": 192, "learning_rate": 0.00005, "encoder_dropout": 0.10, "weight_decay": 0.002},
+    {"name": "gn192_lr1e4_drop10", "encoder_norm": "group", "encoder_final_channels": 192, "learning_rate": 0.00010, "encoder_dropout": 0.10, "weight_decay": 0.002}
+  ],
+  "selection_rule": "Select using validation results only; evaluate the test set once after freezing."
+}
